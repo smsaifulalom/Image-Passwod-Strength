@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-body {
+/* body {
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -50,6 +50,58 @@ p {
   border-radius: 8px;
   margin: 10px 0px;
   font-size: medium;
+}
+input:focus {
+  outline: none;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+.background {
+  background-image: url("https://images.unsplash.com/photo-1611358382200-5baf13de1b40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80");
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(20px);
+}
+.form {
+  background-color: #fff;
+  width: 600px;
+  text-align: center;
+  height: 40%;
+  border-radius: 10px;
+}
+h2 {
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+p {
+  color: gray;
+  font-size: 16px;
+}
+.inputSection {
+  margin: 0px 60px;
+  text-align: left;
+}
+input {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
 }
 input:focus {
   outline: none;
